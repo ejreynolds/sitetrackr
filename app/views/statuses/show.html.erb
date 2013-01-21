@@ -1,6 +1,6 @@
-<%- model_class = Statu -%>
+<%- model_class = Status -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+  <h1>Status</h1>
 </div>
 
 <dl class="dl-horizontal">
@@ -8,8 +8,10 @@
   <dd><%= @status.site_id %></dd>
   <dt><strong>Status:</strong></dt>
   <dd><%= @status.status %></dd>
-  <dt><strong>Response Code>:</strong></dt>
+  <dt><strong>Response Code:</strong></dt>
   <dd><%= @status.response_code %></dd>
+  <dt><strong>Timestamp:</strong></dt>
+  <dd><%= @status.created_at %></dd>
 </dl>
 
 <div class="form-actions">
