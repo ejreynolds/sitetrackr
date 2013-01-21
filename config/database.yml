@@ -17,6 +17,7 @@ development:
   encoding: unicode
   database: sitecheckr_development
   pool: 5
+  host: localhost
   username: sitecheckr
   password: sitecheckr
 
