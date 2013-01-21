@@ -1,4 +1,7 @@
 Sitecheckr::Application.routes.draw do
+  resources :statuses
+
+
   resources :sites
 
 
